@@ -4,7 +4,6 @@
   - [sg storage gateway](./lan/sg)
   - [cg compute gateway](./lan/cg)
  
-
 ---
 
 | Service admin Link  | type    | description | location    |
@@ -19,6 +18,21 @@
 | [https://192.168.0.7:8006/](https://192.168.0.7:8006/) | cg2 | proxmox cg2 subnet | vm on cg2 |
 | - | - | - | - |
 | [https://192.168.0.121:32400/](https://192.168.0.121:32400/) | plex | gusHPlex | app on gusHPLaptop |
+
+---
+---
+
+## Media Ethernet Devices
+| Network Name         | MAC Address       | IP            | port | description     | location    |
+|----------------------|-------------------|---------------|------|-----------------|-------------|
+|	KathysRokuUltra	     | 84-EA-ED-A8-64-91 | 192.168.0.105 | s2p1 | KathysRokuUltra | lr |
+|	StevesRokuUltra	     | 8C-49-62-0B-69-8D | 192.168.0.103 | s1p1 | StevesRokuUltra | sr |
+|	TIVO-74600019083B6E2 | 00-11-D9-38-0B-FC | 192.168.0.104 | s1p2 | Steves320 | sr |
+|	TIVO-8480001902B1749 | 00-11-D9-5F-47-82 | 192.168.0.112 | s1p3 | Steves640 | sr |
+|	TIVO-8480001902B1749 | 00-11-D9-5F-47-83 | 192.168.0.120 | wifi | Kathys160 | sr |
+|	HDHR-10802956	       | 00-18-DD-08-02-95 | 192.168.0.118 | s1p4 | sdtuner | sr |
+|	Portal-8B57B421F784  | A4-0E-2B-4C-EF-C7 | 192.168.0.111 | wifi | portaltv | lr |
+| pictureframe         | na | na | wifi | picture frame | lr |
 
 ---
 2023.07.23
@@ -69,3 +83,13 @@ ID	Service Port	Internal Port	IP Address	Protocol	Status	Modify
 3	32500	32400	192.168.0.99	ALL	Enabled	Modify Delete
 4	32800	32400	192.168.0.107	ALL	Enabled	Modify Delete
 ```
+D	Client Name	MAC Address	Assigned IP	Lease Time
+1	KathysRokuUltra	84-EA-ED-A8-64-91	192.168.0.105	01:44:08
+2	StevesRokuUltra	8C-49-62-0B-69-8D	192.168.0.103	01:47:44
+3	TIVO-74600019083B6E2	00-11-D9-38-0B-FC	192.168.0.104	01:44:09
+7	TIVO-8480001902B1749	00-11-D9-5F-47-82	192.168.0.112	01:44:20
+9	TIVO-8480001902B1749	00-11-D9-5F-47-83	192.168.0.120	01:44:21
+13	Portal-8B57B421F784	A4-0E-2B-4C-EF-C7	192.168.0.111	01:44:43
+17	HDHR-10802956	00-18-DD-08-02-95	192.168.0.118	01:13:52
+19	Pixel-6a	86-50-46-38-28-96	192.168.0.119	01:18:49
+21	cats-Mac-mini	7C-C3-A1-73-CC-A3	192.168.0.123	01:43:46
