@@ -51,12 +51,14 @@
 
 | Coax name  | source   | destination | locations |
 | ---------- |----------|-------------|-----------|
-| cable feed   | main cable | spl03    | sr |
+| cable feed   | main cable | spl03 input | sr |
 | spl03 feed | spl03p1 | spectrum modem       | sr |
-| spl04 feed | spl03p1   | spl04 input       | sr |
-| Steves640 feed | spl04p1 | Steves320 Tivo ant | sr |
-| Kathys160 feed | spl04p3 | Kathys160 ant | lr |
-
+| spl04 feed | spl03p2   | spl04 input       | sr |
+| Steves640 feed | spl04p1 | Steves320 Tivo cable | sr |
+| Kathys160 feed | spl04p2 | Kathys160 cable | sr |
+| ?? feed | spl04p3 | ?? cable | sr |
+| ?? feed | spl04p4 | ?? cable  | sr |
+| Kathys160 feed | spl04p5 | ?? cable  | sr |
 
 ---
 2023.07.23
