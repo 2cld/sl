@@ -20,9 +20,9 @@
 | [https://192.168.0.121:32400/](https://192.168.0.121:32400/) | plex | gusHPlex | app on gusHPLaptop |
 
 ---
----
 
 ## Media Ethernet Devices
+
 | Network Name         | MAC Address       | IP            | port | description     | location    |
 |----------------------|-------------------|---------------|------|-----------------|-------------|
 |	KathysRokuUltra	     | 84-EA-ED-A8-64-91 | 192.168.0.105 | s2p1 | KathysRokuUltra | lr |
