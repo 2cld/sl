@@ -23,16 +23,19 @@
 
 ## Media Ethernet Devices
 
-| Network Name         | MAC Address       | IP            | port | description     | location    |
-|----------------------|-------------------|---------------|------|-----------------|-------------|
+| Network Name         | MAC Address       | IP            | port | description     | location |
+|----------------------|-------------------|---------------|------|-----------------|----------|
 |	KathysRokuUltra	     | 84-EA-ED-A8-64-91 | 192.168.0.105 | s2p1 | KathysRokuUltra | lr |
-|	StevesRokuUltra	     | 8C-49-62-0B-69-8D | 192.168.0.103 | s1p1 | StevesRokuUltra | sr |
-|	TIVO-74600019083B6E2 | 00-11-D9-38-0B-FC | 192.168.0.104 | s1p2 | Steves320 | sr |
-|	TIVO-8480001902B1749 | 00-11-D9-5F-47-82 | 192.168.0.112 | s1p3 | Steves640 | sr |
-|	TIVO-8480001902B1749 | 00-11-D9-5F-47-83 | 192.168.0.120 | wifi | Kathys160 | sr |
-|	HDHR-10802956	       | 00-18-DD-08-02-95 | 192.168.0.118 | s1p4 | sdtuner | sr |
+|	TIVO-74600019083B6E2 | 00-11-D9-38-0B-FC | 192.168.0.104 | s2p2 | Kathys160 | sr |
 |	Portal-8B57B421F784  | A4-0E-2B-4C-EF-C7 | 192.168.0.111 | wifi | portaltv | lr |
 | pictureframe         | na | na | wifi | picture frame | lr |
+|----------------------|-------------------|---------------|------|-----------------|----------|
+|	StevesRokuUltra	     | 8C-49-62-0B-69-8D | 192.168.0.103 | wifi | StevesRokuUltra | sr |
+|	TIVO-8480001902B1749 | 00-11-D9-5F-47-83 | 192.168.0.120 | wifi | Steves640 | sr |
+|	TIVO-8480001902B1749 | 00-11-D9-5F-47-82 | 192.168.0.112 | s1p1 | Steves640 | sr |
+| TIVO-748000190569948 | 00-11-D9-35-02-A8 | 192.168.0.102 | s1p2 | Steves320 | sr |
+|	HDHR-10802956	       | 00-18-DD-08-02-95 | 192.168.0.118 | s1p3 | sdtuner | sr |
+| switch 1 to 1        | na | na | s1p4 | switch | sr-lr |
 
 ---
 2023.07.23
