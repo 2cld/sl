@@ -11,7 +11,7 @@
 | ~~[https://192.168.0.6:444/](https://192.168.0.6:444/)~~ | ~~sg2~~ | truenas2 (https) sg2 on subnet | vm on cg2 | na |
 | ~~[https://192.168.0.7:8006/](https://192.168.0.7:8006/)~~ | ~~cg2~~ | proxmox cg2 subnet | vm on cg2 | na |
 | - | - | - | - | na |
-| [https://192.168.0.23:32400/](https://192.168.0.23:32400/) | plex | gusHPlex | app on gusHPLaptop | na |
+| [https://192.168.0.23:32400/](https://192.168.0.23:32400/) | plex | gusHPlex | app on gusHPLaptop | 00-23-8B-86-38-61 |
 
 ---
 
@@ -89,6 +89,13 @@ Subnet Mask:	255.255.248.0
 Default Gateway:	24.216.208.1	  
 DNS Server:	71.10.216.1 , 71.10.216.2
 ```
+
+## port forward
+
+| External | Internal | IP |
+|-------|-------|---------------|
+| 32400	| 32400	| 192.168.0.23  |
+
 
 - [Link to CD Pictures](https://photos.app.goo.gl/gJL3BKZerkMmL1Jn7)
 
