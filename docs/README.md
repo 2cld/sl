@@ -92,9 +92,10 @@ DNS Server:	71.10.216.1 , 71.10.216.2
 
 ## port forward
 
-| External | Internal | IP |
-|-------|-------|---------------|
-| 32400	| 32400	| 192.168.0.23  |
+| External | Internal | IP | detail |
+|-------|-------|---------------|---|
+| 32400	| 32400	| 192.168.0.23  | gusHPlex on gusHPLaptop | 
+| 32800	| 32400	| 192.168.0.201 | slPlex on slPlex win11 | 
 
 
 - [Link to CD Pictures](https://photos.app.goo.gl/gJL3BKZerkMmL1Jn7)
