@@ -37,7 +37,7 @@
 |	HDHR-10802956	       | 00-18-DD-08-02-95 | 192.168.0.13  | sw1p3 | plexTuner       | sr |
 | switch 1 to 1        | na                | na       |sw1p4-sw2p0 | sw1-sw2        |sr-lr|`
 |----------------------|-------------------|---------------|-------|-----------------|----|
-|	cfPlex               | xx-xx-F7-31-9C-xx | 192.168.0.201 | sw1p1 | cfPlex chris's  | bm |
+|	cfPlex               | 10-C3-7B-46-0C-ED | 192.168.0.201 | sw1p1 | cfPlex chris's  | bm |
 |	cfsg2   	           | xx-xx-F7-31-9C-xx | 192.168.0.202 | vmbrg | trueNAS_vm-cfPlex | bm |
 |----------------------|-------------------|---------------|-------|-----------------|----|
 |	cats-Mac-mini        | 7C-C3-A1-73-CC-A3 | 192.168.0.211  | wifi  | macmini  chris  | bm |
