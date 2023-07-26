@@ -38,7 +38,7 @@
 | switch 1 to 1        | na                | na       |sw1p4-sw2p0 | sw1-sw2        |sr-lr|`
 |----------------------|-------------------|---------------|-------|-----------------|----|
 |	cfPlex               | 10-C3-7B-46-0C-ED | 192.168.0.201 | sw1p1 | cfPlex chris's  | bm |
-|	cfsg2   	           | xx-xx-F7-31-9C-xx | 192.168.0.202 | vmbrg | trueNAS_vm-cfPlex | bm |
+|	cfsg2   	           | 00-15-5D-02-71-03 | 192.168.0.202 | vmbrg | trueNAS_vm-cfPlex | bm |
 |----------------------|-------------------|---------------|-------|-----------------|----|
 |	cats-Mac-mini        | 7C-C3-A1-73-CC-A3 | 192.168.0.211  | wifi  | macmini  chris  | bm |
 |	catSurface   	       | 28-18-78-C7-FC-23 | 192.168.0.212  | wifi  | suface   chris  | bm |
