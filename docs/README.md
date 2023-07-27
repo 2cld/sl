@@ -1,4 +1,4 @@
-
+[edit](https://github.com/2cld/sl/edit/main/docs/README.md)
 
 | Service admin Link  | type    | description | location    | mac |
 |---------------------|---------|-------------|-------------|-----|
@@ -6,12 +6,16 @@
 | [http://192.168.0.2/](http://192.168.2.2/) | sg | truenas sg on subnet | vm on cg | na |
 | [https://192.168.0.2:443/](https://192.168.2.2:443/) | sg | truenas (https) sg on subnet | vm on cg | na |
 | [https://192.168.0.3:8006/](https://192.168.2.3:8006/) | cg | proxmox cg subnet | cg hardware | na |
-| - | - | - | - | na |
+| ns2 | - | - | backup | na |
 | ~~[http://192.168.0.6:81/](http://192.168.0.6:81/)~~ | ~~sg2~~ | truenas2 sg2 on subnet | vm on cg2 | na |
 | ~~[https://192.168.0.6:444/](https://192.168.0.6:444/)~~ | ~~sg2~~ | truenas2 (https) sg2 on subnet | vm on cg2 | na |
 | ~~[https://192.168.0.7:8006/](https://192.168.0.7:8006/)~~ | ~~cg2~~ | proxmox cg2 subnet | vm on cg2 | na |
-| - | - | - | - | na |
+| Plex | - | - | - | na |
 | [https://192.168.0.23:32400/](https://192.168.0.23:32400/) | plex | gusHPlex | app on gusHPLaptop | 00-23-8B-86-38-61 |
+|---------------------|---------|-------------|-------------|-----|
+| catTemp | - | - | - | na |
+| [https://192.168.0.201:32400/](https://192.168.0.201:32400/) | plex | gusHPlex | app on gusHPLaptop | 10-C3-7B-46-0C-ED |
+| [http://192.168.0.202:80/](http://192.168.0.202:80/) | sg2 | truenas2 sg2 on subnet | vm on cfPlex | 00-15-5D-02-71-03 |
 
 ---
 
@@ -67,11 +71,11 @@
 | ?? feed | spl04p4 | ?? cable  | sr |
 | Kathys160 feed | spl04p5 | ?? cable  | sr |
 
----
-- [sl lan](./lan)
-  - [ng network gateway](./lan/ng)
-  - [sg storage gateway](./lan/sg)
-  - [cg compute gateway](./lan/cg)
+# Reference Docs
+- sl network based on [https://netstack.org/](https://netstack.org/) sl.lan model [https://netstack.org/docs/lan/](https://netstack.org/docs/lan/)
+  - ng.sl.lan network gateway [https://netstack.org/docs/lan/network/tp-link/](https://netstack.org/docs/lan/network/tp-link/)
+  - sg.sl.lan storage gateway [https://netstack.org/docs/lan/storage/freenas/](https://netstack.org/docs/lan/storage/freenas/)
+  - cg.sl.lan compute gateway [https://netstack.org/docs/lan/compute/proxmox/nswin11vm](https://netstack.org/docs/lan/compute/proxmox/nswin11vm)
  
 ---
 
