@@ -14,7 +14,7 @@
 | [https://192.168.0.23:32400/](https://192.168.0.23:32400/) | plex | gusHPlex | app on gusHPLaptop | 00-23-8B-86-38-61 |
 |---------------------|---------|-------------|-------------|-----|
 | catTemp | - | - | - | na |
-| [https://192.168.0.201:32400/](https://192.168.0.201:32400/) | plex | gusHPlex | app on gusHPLaptop | 10-C3-7B-46-0C-ED |
+| [https://192.168.0.201:32400/](https://192.168.0.201:32400/) | plex | cfPlex | app on sg2 proxmox | 10-C3-7B-46-0C-ED |
 | [http://192.168.0.202:80/](http://192.168.0.202:80/) | sg2 | truenas2 sg2 on subnet | vm on cfPlex | 00-15-5D-02-71-03 |
 
 ---
