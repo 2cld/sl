@@ -15,7 +15,7 @@
 |---------------------|---------|-------------|-------------|-----|
 | catTemp | - | - | - | na |
 | [https://192.168.0.201:32400/](https://192.168.0.201:32400/) | plex | cfPlex | app on sg2 proxmox | 10-C3-7B-46-0C-ED |
-| [http://192.168.0.202:80/](http://192.168.0.202:80/) | sg2 | truenas2 sg2 on subnet | vm on cfPlex | 00-15-5D-02-71-03 |
+| [http://192.168.0.202:80/](http://192.168.0.202:80/) | sg2 | cf-sg2 on sl subnet | vm on cf-cg2 | 00-15-5D-02-71-03 |
 
 ---
 
@@ -100,6 +100,7 @@ DNS Server:	71.10.216.1 , 71.10.216.2
 |-------|-------|---------------|---|
 | 32400	| 32400	| 192.168.0.23  | gusHPlex on gusHPLaptop | 
 | 32800	| 32400	| 192.168.0.201 | slPlex on slPlex win11 | 
+|  2020 |    22 | 192.168.0.202 | cf-sg2 cattemp truenas | 
 
 
 - [Link to CD Pictures](https://photos.app.goo.gl/gJL3BKZerkMmL1Jn7)
