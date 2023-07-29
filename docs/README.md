@@ -1,5 +1,11 @@
 [edit](https://github.com/2cld/sl/edit/main/docs/README.md)
 
+| External Service             | type | description | location    |
+|------------------------------|------|-------------|-------------|
+|      24.216.208.251 : 32400  | plex | gusHPlex    | sl |
+| test.christrees.com :  2020  | ssh  | remote xfer | sl |
+|      24.216.208.251 : 32800  | plex | cfPlex      | sl |
+
 | Service admin Link  | type    | description | location    | mac |
 |---------------------|---------|-------------|-------------|-----|
 | [http://192.168.0.1/](http://192.168.0.1/) | ng | tp-link ng on subnet | sl gb | 18-A6-F7-31-9C-06 |
