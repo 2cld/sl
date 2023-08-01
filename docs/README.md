@@ -35,7 +35,8 @@
 |	~~KathysRokuUltra~~	 | 84-EA-ED-A8-64-9x | na            | wifi  | KathysRokuUltra | lr |
 |	KathysRokuUltra	     | 84-EA-ED-A8-64-91 | 192.168.0.21  | sw2p1 | KathysRokuUltra | lr |
 |	TIVO-74600019083B6E2 | 00-11-D9-38-0B-FC | 192.168.0.22  | sw2p2 | Kathys160       | lr |
-| gusHPLaptop          | 00-23-8B-86-38-61 | 192.168.0.23  | sw2p3 | gusHPLaptop     | lr |
+| gusHPLaptop          | 00-23-8B-86-38-61 | 192.168.0.23  | sw2p3 | gusHPLaptop win10| lr |
+| gusGram              | AC-74-B1-02-FB-CF | 192.168.0.28  | wifi  | gusGram win11 i7| lr |
 |	Portal-8B57B421F784  | A4-0E-2B-4C-EF-C7 | 192.168.0.29  | wifi  | portaltv        | lr |
 | pictureframe         | na                | na            | wifi  | picture frame   | lr |
 |----------------------|-------------------|---------------|-------|-----------------|----|
@@ -44,8 +45,9 @@
 |	TIVO-8480001902B1749 | 00-11-D9-5F-47-83 | 192.168.0.15  | wifi  | Steves640       | sr |
 |	TIVO-8480001902B1749 | 00-11-D9-5F-47-82 | 192.168.0.11  | sw1p1 | Steves640       | sr |
 | TIVO-748000190569948 | 00-11-D9-35-02-A8 | 192.168.0.12  | sw1p2 | Steves320       | sr |
-|	HDHR-10802956	       | 00-18-DD-08-02-95 | 192.168.0.13  | sw1p3 | plexTuner       | sr |
-| switch 1 to 1        | na                | na       |sw1p4-sw2p0 | sw1-sw2        |sr-lr|`
+|	HDHR-10802956	       | 00-18-DD-08-02-95 | 192.168.0.13  | sw2p4 | plexTuner       | sr |
+| switch 1 to 2        | na                | na       |sw1p4-sw2p0 | sw1-sw2        |sr-lr|`
+| switch 1 to 3        | basement run      | na       |sw1p3-sw2p0 | sw1-sw3        |sr-bm|`
 |----------------------|-------------------|---------------|-------|-----------------|----|
 |	cfPlex               | 10-C3-7B-46-0C-ED | 192.168.0.201 | sw1p1 | cfPlex chris's  | bm |
 |	cfsg2   	           | 00-15-5D-02-71-03 | 192.168.0.202 | vmbrg | trueNAS_vm-cfPlex | bm |
@@ -105,7 +107,7 @@ DNS Server:	71.10.216.1 , 71.10.216.2
 | External | Internal | IP | detail |
 |-------|-------|---------------|---|
 | 32400	| 32400	| 192.168.0.23  | gusHPlex on gusHPLaptop | 
-| 32800	| 32400	| 192.168.0.201 | slPlex on slPlex win11 | 
+| 32800	| 32400	| 192.168.0.201 | cfPlex on win11 | 
 |  2020 |    22 | 192.168.0.202 | cf-sg2 cattemp truenas | 
 
 
