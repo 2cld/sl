@@ -3,6 +3,7 @@
 | External Service             | type | description | location    |
 |------------------------------|------|-------------|-------------|
 |      24.216.208.251 : 32400  | plex | [slPlex](https://24.216.208.251:32400) | sl |
+|      24.216.208.251 : 32500  | plex | [slDVR](https://24.216.208.251:32500) | sl |
 |      24.149.22.11   : 32400  | plex | [cfPlex](https://24.149.22.11:32400) | cf |
 |      24.149.22.11   : 32500  | plex | [cfDVR](https://24.149.22.11:32500)  | cf |
 | test.christrees.com :  2020  | ssh  | sg | cf |
@@ -19,12 +20,13 @@
 | ~~[http://192.168.0.2/](http://192.168.2.2/)~~ | sg | reserved nas sg on subnet | vm on cg | na |
 | ~~[https://192.168.0.3:8006/](https://192.168.2.3:8006/)~~ | cg | reserved proxmox cg subnet | cg hardware | na |
 | ns2 | - | - | backup | na |
-| [http://192.168.0.6:8080/](http://192.168.0.6:8080/) | sg2 | qnap sg2 on subnet | sl-sb-sw3p2 | 00-08-9B-E2-83-93 |
+| [http://192.168.0.6:8080/](http://192.168.0.6:8080/) | sg2 | [buadmin](http://192.168.0.6:8080/) qnap sg2 | sl-sb-sw3p2 | 00-08-9B-E2-83-93 |
 | Plex | - | - | - | na |
-| [https://192.168.0.6:32400/](https://192.168.0.6:32400/) | slPlex | qnap  [slPlex](https://24.216.208.251:32400) on sg2 | vm on sg2 | 00-08-9B-E2-83-93 |
+| [https://192.168.0.6:32400/](https://192.168.0.6:32400/) | slPlex | [slPlex](https://24.216.208.251:32400) on sg2 | vm on sg2 | 00-08-9B-E2-83-93 |
+| [https://192.168.0.9:32400/](https://192.168.0.9:32400/) | slDVR | [slPlex](https://24.216.208.251:32500) on slwin11 | app | 00-15-17-5B-F2-80 |
 |---------------------|---------|-------------|-------------|-----|
 | catTemp | - | - | - | na |
-| [https://192.168.0.23:32400/](https://192.168.0.23:32400/) | removed plex | gusHPlex | app on gusHPLaptop | 00-23-8B-86-38-61 |
+| ~~[https://192.168.0.23:32400/](https://192.168.0.23:32400/)~~ | removed plex | gusHPlex | app on gusHPLaptop | 00-23-8B-86-38-61 |
 
 ---
 
@@ -33,7 +35,7 @@
 | Network Name     | MAC Address-          | IP         | port  | description     | rm | link |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
 |	na	                 | na                | na           | sw1p0 | Spectrum Modem  | sr | |
-|	Archer_C7 switch 1 sr | 18-A6-F7-31-9C-07 | 192.168.0.1  |sw1int | TP-LINK AC1720  | sr | [buadmin](http://192.168.0.1/) |
+|	Archer_C7 switch 1 sr | 18-A6-F7-31-9C-07 | 192.168.0.1  |sw1int | TP-LINK AC1720  | sr | [admin](http://192.168.0.1/) |
 | switch 1 to 2        | living room switch lr | na      |sw1p4-sw2p5 | sw1-sw2        |sr-lr| |
 | switch 2 to 3        | basement switch bm    | na      |sw2p4-sw3p1 | sw2-sw3        |lr-bm| |
 | Steve Room |-----------------------|------------|-------|-----------------|----|------|
@@ -47,18 +49,18 @@
 |	~~KathysRokuUltra~~	 | 84-EA-ED-A8-64-9x | na           | wifi  | KathysRokuUltra | lr | |
 |	KathysRokuUltra	     | 84-EA-ED-A8-64-91 | 192.168.0.21 | sw2p1 | KathysRokuUltra | lr | |
 |	TIVO-74600019083B6E2 | 00-11-D9-38-0B-FC | 192.168.0.22 | sw2p2 | Kathys160       | lr | |
-| gusHPLaptop          | 00-23-8B-86-38-61 | 192.168.0.23 | sw2p3 | gusHPLaptop win10 | lr | [gusHPlex](http://192.168.0.23:32400) |
+| gusHPLaptop          | 00-23-8B-86-38-61 | 192.168.0.23 | sw2p3 | gusHPLaptop win10 | lr | [gusHPlex](http://192.168.0.23:32400) ghadmin |
 | switch 2 to 3        | basement switch bm    | na      |sw2p4-sw3p1 | sw2-sw3        |lr-bm| |
-| gusGram              | AC-74-B1-02-FB-CF | 192.168.0.28 | wifi  | gusGram win11 i7 | lr | rmdesk |
+| gusGram              | AC-74-B1-02-FB-CF | 192.168.0.28 | wifi  | gusGram win11 i7 | lr | rmdesk ghadmin |
 |	Portal-8B57B421F784  | A4-0E-2B-4C-EF-C7 | 192.168.0.29 | wifi  | portaltv        | lr | |
 | pictureframe         | na                | na           | wifi  | picture frame   | lr | |
 | Basement         |-----------------------|------------|-------|-----------------|----|------|
 | switch 2 to 3        | basement switch bm    | na      | sw2p4-sw3p1 | sw2-sw3        |lr-bm| |
-|	sg2               | 00-08-9B-E2-83-93 | 192.168.0.6 | sw3p2 | qnap nas  | bm | [buadmin](http://192.168.0.6:8080/) |
-|	slwin11              | 10-C3-7B-46-0C-ED | 192.168.0.108 | sw3p3 | cfPlex chris's  | bm | rmdesk |
+|	sg2               | 00-08-9B-E2-83-93 | 192.168.0.6 | sw3p2 | [slPlex](https://192.168.0.6:32400)  | bm | [buadmin](http://192.168.0.6:8080/) |
+|	slwin11              | 00-15-17-5B-F2-80 | 192.168.0.9 | sw3p3 |  [slDVR](https://192.168.0.9:32400)  | bm | sladmin ghadmin |
 | Basement temp |-----------------------|------------|-------|-----------------|----|------|
-|	cats-Mac-mini        | 7C-C3-A1-73-CC-A3 | 192.168.0.211 | sw3p4  | macmini  chris  | bm | |
-|	catSurface   	       | 28-18-78-C7-FC-23 | 192.168.0.212 | sw3p5  | suface   chris  | bm | |
+|	cats-Mac-mini        | 7C-C3-A1-73-CC-A3 | 192.168.0.211 | sw3p4  | macmini  chris  | bm | cat ghadmin |
+|	catSurface   	       | 28-18-78-C7-FC-23 | 192.168.0.212 | sw3p5  | suface   chris  | bm | cat ghadmin |
 |	Pixel-6a    	       | 86-50-46-38-28-96 | 192.168.0.213 | wifi  | Pixel-6a chris  | bm | |
 | FireTV cube          | A4-08-01-60-57-35 | 192.168.0.214 | wifi  | FireTV   chris  | bm | |
 
@@ -111,10 +113,65 @@ DNS Server:	71.10.216.1 , 71.10.216.2
 
 | External | Internal | IP | detail |
 |-------|-------|---------------|---|
-| 32400	| 32400	| 192.168.0.23  | gusHPlex on gusHPLaptop | 
-| 32800	| 32400	| 192.168.0.201 | cfPlex on win11 | 
+| 32400	| 32400	| 192.168.0.6  | slPlex on sg2 | 
+| 32500	| 32400	| 192.168.0.9 | slDVR on slwin11 | 
+| 32400	| 32400	| 192.168.0.23  | removed ~~gusHPlex~~ on gusHPLaptop | 
 |  2020 |    22 | 192.168.0.202 | cf-sg2 cattemp truenas | 
 
+MAC Res
+```
+ID	MAC Address	Reserved IP Address	Status	Modify
+1	84-EA-ED-A8-64-91	192.168.0.21	Enabled	Modify Delete
+2	00-11-D9-38-0B-FC	192.168.0.22	Enabled	Modify Delete
+3	00-23-8B-86-38-61	192.168.0.23	Enabled	Modify Delete
+4	8C-49-62-0B-69-8C	192.168.0.24	Enabled	Modify Delete
+5	00-11-D9-5F-47-82	192.168.0.11	Enabled	Modify Delete
+6	00-11-D9-35-02-A8	192.168.0.12	Enabled	Modify Delete
+7	00-18-DD-08-02-95	192.168.0.13	Enabled	Modify Delete
+8	8C-49-62-0B-69-8D	192.168.0.14	Enabled	Modify Delete
+9	00-11-D9-5F-47-83	192.168.0.15	Enabled	Modify Delete
+10	7C-C3-A1-73-CC-A3	192.168.0.211	Enabled	Modify Delete
+11	28-18-78-C7-FC-23	192.168.0.212	Enabled	Modify Delete
+12	86-50-46-38-28-96	192.168.0.213	Enabled	Modify Delete
+13	A4-08-01-60-57-35	192.168.0.214	Enabled	Modify Delete
+14	A4-0E-2B-4C-EF-C7	192.168.0.29	Enabled	Modify Delete
+15	10-C3-7B-46-0C-ED	192.168.0.201	Enabled	Modify Delete
+16	00-15-5D-02-71-03	192.168.0.202	Enabled	Modify Delete
+17	AC-74-B1-02-FB-CF	192.168.0.28	Enabled	Modify Delete
+18	00-08-9B-E2-83-93	192.168.0.6	Enabled	Modify Delete
+19	00-15-17-5B-F2-80	192.168.0.9	Enabled	Modify Delete
+```
+
+DHCP 
+```
+ID	Client Name	MAC Address	Assigned IP	Lease Time
+1	android-4de9db6d80c2f04c	AC-D0-74-13-A8-78	192.168.0.110	01:03:48
+2	wlan0	CC-8C-BF-F6-79-29	192.168.0.100	01:19:17
+3	StevesRokuUltra	8C-49-62-0B-69-8D	192.168.0.14	Permanent
+4	TIVO-748000190569948	00-11-D9-35-02-A8	192.168.0.12	Permanent
+5	500-64dba0f5f089	64-DB-A0-F5-F0-89	192.168.0.101	01:37:15
+6	TIVO-8480001902B1749	00-11-D9-5F-47-82	192.168.0.11	Permanent
+7	TIVO-8480001902B1749	00-11-D9-5F-47-83	192.168.0.15	Permanent
+8	Unknown	A4-08-01-60-57-35	192.168.0.214	Permanent
+9	BRW485AB64C63EF	48-5A-B6-4C-63-EF	192.168.0.122	01:19:37
+10	Unknown	FE-24-B4-B0-5E-35	192.168.0.103	00:53:36
+11	Unknown	C6-9A-1C-84-72-48	192.168.0.106	01:46:48
+12	Unknown	1A-64-1A-7E-00-3D	192.168.0.109	01:01:32
+13	catSurface	28-18-78-B7-BE-B7	192.168.0.107	01:57:15
+14	gusGram	AC-74-B1-02-FB-CF	192.168.0.28	Permanent
+15	Portal-744CF7122AD3	A4-0E-2B-3C-A7-62	192.168.0.105	01:52:18
+16	sg2	00-08-9B-E2-83-93	192.168.0.6	Permanent
+17	cats-Mac-mini	3C-07-54-72-49-E2	192.168.0.104	01:00:47
+18	slwin11	00-15-17-5B-F2-80	192.168.0.9	01:21:47
+19	amazon-4f24e65ad	A0-02-DC-F7-1B-62	192.168.0.102	01:09:23
+20	Unknown	16-2F-4E-27-3D-1F	192.168.0.111	00:25:45
+21	gusHPLaptop	00-23-8B-86-38-61	192.168.0.23	Permanent
+22	Pixel-6a	4A-8C-7F-77-D9-02	192.168.0.112	01:11:06
+23	Pixel-6a	86-50-46-38-28-96	192.168.0.213	Permanent
+24	Portal-8B57B421F784	A4-0E-2B-4C-EF-C7	192.168.0.29	Permanent
+25	wlan0	A0-92-08-68-FC-EE	192.168.0.113	00:31:25
+26	LGwebOSTV	7C-1C-4E-5D-C5-F6	192.168.0.136	01:48:51
+```
 
 - [Link to CD Pictures](https://photos.app.goo.gl/gJL3BKZerkMmL1Jn7)
 
