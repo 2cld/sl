@@ -2,12 +2,12 @@
 
 | External Service             | type | description | location    |
 |------------------------------|------|-------------|-------------|
-|      24.216.208.251 : 32400  | plex | [slPlex](https://24.216.208.251:32400) | sl |
-|      24.216.208.251 : 32500  | plex | [slDVR](https://24.216.208.251:32500) | sl |
-|      24.149.22.11   : 32400  | plex | [cfPlex](https://24.149.22.11:32400) | cf |
-|      24.149.22.11   : 32500  | plex | [cfDVR](https://24.149.22.11:32500)  | cf |
-| test.christrees.com :  2020  | ssh  | sg | cf |
-| test.christrees.com :  2021  | ssh  | sg2 | cf |
+|      24.216.208.251 : 32400  | 0.6 plex | [slPlex](https://24.216.208.251:32400) | sl |
+|      24.216.208.251 : 32500  | 0.9 plex | [slDVR](https://24.216.208.251:32500) | sl |
+|      24.149.22.11   : 32400  | 6.3 plex | [cfPlex](https://24.149.22.11:32400) | cf |
+|      24.149.22.11   : 32500  | 6.6 plex | [cfDVR](https://24.149.22.11:32500)  | cf |
+| test.christrees.com :  2020  | 6.2 ssh  | sg | cf |
+| test.christrees.com :  2021  | 6.6 ssh  | sg2 | cf |
 
 - [tv.2cld.net](https://tv.2cld.net/)
 - [cf.2cld.net](https://cf.2cld.net/)
@@ -22,8 +22,8 @@
 | ns2 | - | - | backup | na |
 | [http://192.168.0.6:8080/](http://192.168.0.6:8080/) | sg2 | [buadmin](http://192.168.0.6:8080/) qnap sg2 | sl-sb-sw3p2 | 00-08-9B-E2-83-93 |
 | Plex | - | - | - | na |
-| [https://192.168.0.6:32400/](https://192.168.0.6:32400/) | slPlex | [slPlex](https://24.216.208.251:32400) on sg2 | vm on sg2 | 00-08-9B-E2-83-93 |
-| [https://192.168.0.9:32400/](https://192.168.0.9:32400/) | slDVR | [slPlex](https://24.216.208.251:32500) on slwin11 | app | 00-15-17-5B-F2-80 |
+| [https://192.168.0.6:32400/](https://192.168.0.6:32400/) | slPlex | [slPlex](https://24.216.208.251:32400) on sg2 | sg2 app | 00-08-9B-E2-83-93 |
+| [https://192.168.0.9:32400/](https://192.168.0.9:32400/) | slDVR | [slDVR](https://24.216.208.251:32500) on slwin11 | win app | 00-15-17-5B-F2-80 |
 |---------------------|---------|-------------|-------------|-----|
 | catTemp | - | - | - | na |
 | ~~[https://192.168.0.23:32400/](https://192.168.0.23:32400/)~~ | removed plex | gusHPlex | app on gusHPLaptop | 00-23-8B-86-38-61 |
