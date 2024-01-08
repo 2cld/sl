@@ -57,7 +57,8 @@
 | Basement         |-----------------------|------------|-------|-----------------|----|------|
 | switch 2 to 3        | basement switch bm    | na      | sw2p4-sw3p1 | sw2-sw3        |lr-bm| |
 |	sg2               | 00-08-9B-E2-83-93 | 192.168.0.6 | sw3p2 | [slPlex](https://192.168.0.6:32400)  | bm | [buadmin](http://192.168.0.6:8080/) |
-|	slwin11              | 00-15-17-5B-F2-80 | 192.168.0.9 | sw3p3 |  [slDVR](https://192.168.0.9:32400)  | bm | sladmin ghadmin |
+|	slwin11 on hw | 00-15-17-5B-F2-80 | 192.168.0.9 | sw3p3 |  [slDVR](https://192.168.0.9:32400)  | bm | sladmin ghadmin |
+|	ubunt22 vm on slwin11 | 08-00-27-00-5C-A0 | 192.168.0.10 | vswitch | not running  | vm | ubuntu22 ghadmin |
 | Basement temp |-----------------------|------------|-------|-----------------|----|------|
 |	cats-Mac-mini        | 7C-C3-A1-73-CC-A3 | 192.168.0.211 | sw3p4  | macmini  chris  | bm | cat ghadmin |
 |	catSurface   	       | 28-18-78-C7-FC-23 | 192.168.0.212 | sw3p5  | suface   chris  | bm | cat ghadmin |
