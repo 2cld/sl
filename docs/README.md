@@ -20,7 +20,7 @@
 | ~~[http://192.168.0.2/](http://192.168.2.2/)~~ | sg | reserved nas sg on subnet | vm on cg | na |
 | ~~[https://192.168.0.3:8006/](https://192.168.2.3:8006/)~~ | cg | reserved proxmox cg subnet | cg hardware | na |
 | ns2 | - | - | backup | na |
-| [http://192.168.0.6:8080/](http://192.168.0.6:8080/) | sg2 | [buadmin](http://192.168.0.6:8080/) qnap sg2 | sl-sb-sw3p2 | 00-08-9B-E2-83-93 |
+| [http://192.168.0.6:8080/](http://192.168.0.6:8080/) | sg2 | [buadmin](http://192.168.0.6:8080/) qnap sg2 5.3TB Raid 0.5TB Used | sl-sb-sw3p2 | 00-08-9B-E2-83-93 |
 | Plex | - | - | - | na |
 | [https://192.168.0.6:32400/](https://192.168.0.6:32400/) | slPlex | [slPlex](https://24.216.208.251:32400) on sg2 | sg2 app | 00-08-9B-E2-83-93 |
 | [https://192.168.0.9:32400/](https://192.168.0.9:32400/) | slDVR | [slDVR](https://24.216.208.251:32500) on slwin11 | win app | 00-15-17-5B-F2-80 |
