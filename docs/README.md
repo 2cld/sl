@@ -2,7 +2,6 @@
 
 | External Service             | type | description | location    |
 |------------------------------|------|-------------|-------------|
-|      24.216.208.251 : 32400  | 0.6 plex | [slPlex](https://24.216.208.251:32400) | sl |
 |      24.216.208.251 : 32500  | 0.9 plex | [slDVR](https://24.216.208.251:32500) | sl |
 |      24.149.22.11   : 32400  | 6.3 plex | [cfPlex](https://24.149.22.11:32400) | cf |
 |      24.149.22.11   : 32500  | 6.6 plex | [cfDVR](https://24.149.22.11:32500)  | cf |
@@ -10,8 +9,8 @@
 | test.christrees.com :  2021  | 6.6 ssh  | sg2 | cf |
 
 - [tv.2cld.net](https://tv.2cld.net/)
-- [cf.2cld.net](https://cf.2cld.net/)
-- [sl.2cld.net](https://sl.2cld.net/)
+- [cf.2cld.net/docs](https://cf.2cld.net/docs)
+- [sl.2cld.net/docs](https://sl.2cld.net//docs)
 - [netstack.org/docs](https://netstack.org/docs/)
 
 | Service admin Link  | type    | description | location    | mac |
