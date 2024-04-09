@@ -10,21 +10,27 @@
 
 - [tv.2cld.net](https://tv.2cld.net/)
 - [cf.2cld.net/docs](https://cf.2cld.net/docs)
-- [sl.2cld.net/docs](https://sl.2cld.net//docs)
+- [sl.2cld.net/docs](https://sl.2cld.net/docs)
 - [netstack.org/docs](https://netstack.org/docs/)
 
 | Service admin Link  | type    | description | location    | mac |
 |---------------------|---------|-------------|-------------|-----|
-| [http://192.168.0.1/](http://192.168.0.1/) | ng | tp-link ng on subnet | sl gb | 18-A6-F7-31-9C-06 |
+| - | ns | netstack [ns docs](https://netstack.org/docs/) | - | - |
+| [http://192.168.0.1/](http://192.168.0.1/) | ng | tp-link [AC1750 Archer C7 doc](https://static.tp-link.com/res/down/doc/Archer_C7_V1_UG.pdf) ng | sl gb | 18-A6-F7-31-9C-06 |
 | ~~[http://192.168.0.2/](http://192.168.2.2/)~~ | sg | reserved nas sg on subnet | vm on cg | na |
 | ~~[https://192.168.0.3:8006/](https://192.168.2.3:8006/)~~ | cg | reserved proxmox cg subnet | cg hardware | na |
-| ns2 | - | - | backup | na |
+| - | ns2 | - | ns backup | na |
+| ~~[http://192.168.0.5/](http://192.168.0.5/)~~ | ng2 | backup network gw | sl gb | na |
 | [http://192.168.0.6:8080/](http://192.168.0.6:8080/) | sg2 | [buadmin](http://192.168.0.6:8080/) qnap sg2 5.3TB Raid 0.5TB Used | sl-sb-sw3p2 | 00-08-9B-E2-83-93 |
-| Plex | - | - | - | na |
+| ~~[http://192.168.0.7:8006/](http://192.168.0.5/7:8006)~~ | cg2 | backup compute gw | sl gb | na |
+| Plex Services | - | - | - | na |
 | ~~[https://192.168.0.6:32400/](https://192.168.0.6:32400/)~~ | ~~slPlex~~ | ~~[slPlex](https://24.216.208.251:32400) on sg2~~ removed | sg2 app | 00-08-9B-E2-83-93 |
 | [https://192.168.0.9:32400/](https://192.168.0.9:32400/) | slDVR | [slDVR](https://24.216.208.251:32500) on slwin11 -zt-10.147.17.198 .25TB-C 1.8TB-D 1.8TB-E | win app | 00-15-17-5B-F2-80 |
 |---------------------|---------|-------------|-------------|-----|
-| catTemp | - | - | - | na |
+| Other Services | - | - | - | na |
+| 192.168.0.9  slwin11  | win11 | Dell 1U win11 zt-10.147.17.198 | sl | 00-15-17-5B-F2-80 |
+| 192.168.0.28 gusGram	| win11 | gus new laptop | sl | AC-74-B1-02-FB-CF |	
+| 192.168.0.23 gusHPLaptop	| win10 | gus old laptop | sl | 00-23-8B-86-38-61 |	
 | ~~[https://192.168.0.23:32400/](https://192.168.0.23:32400/)~~ | removed plex | gusHPlex | app on gusHPLaptop | 00-23-8B-86-38-61 |
 
 ## slDVR Storage Mapping (10.147.17.198 - 192.168.0.9)
