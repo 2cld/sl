@@ -37,6 +37,7 @@
 - [Home Assistant Setup - Crosstalk youtube](https://youtu.be/Y38qRYYAwAI)
 - [Step guide](https://www.crosstalksolutions.com/home-assistant-the-ultimate-setup-guide-a-step-by-step-tutorial/)
 - [Home Assistant Tuya](https://www.youtube.com/watch?v=k9_SyfToDEw)
+- [Home Assistant with Home Kit - Apple](https://www.youtube.com/watch?v=9G2f_c3fnyc)
 
 ## slDVR Storage Mapping (10.147.17.198 - 192.168.0.9)
 
