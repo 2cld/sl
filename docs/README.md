@@ -27,11 +27,15 @@
 | ~~[https://192.168.0.6:32400/](https://192.168.0.6:32400/)~~ | ~~slPlex~~ | ~~[slPlex](https://24.216.208.251:32400) on sg2~~ removed | sg2 app | 00-08-9B-E2-83-93 |
 | [https://192.168.0.9:32400/](https://192.168.0.9:32400/) | slDVR | [slDVR](https://24.216.208.251:32500) on slwin11 -zt-10.147.17.198 .25TB-C 1.8TB-D 1.8TB-E | win app | 00-15-17-5B-F2-80 |
 |---------------------|---------|-------------|-------------|-----|
-| Other Services | - | - | - | na |
+| [HomeAssistant](http://192.168.0.114:8123/) | - | - | - | na |
+| [192.168.0.11:8123](http://192.168.0.114:8123/)  | HA | ha vboxvm on slwin11 | sl | 08-00-27-84-49-45 |
+| user machines | - | - | - | na |
 | 192.168.0.9  slwin11  | win11 | Dell 1U win11 zt-10.147.17.198 | sl | 00-15-17-5B-F2-80 |
 | 192.168.0.28 gusGram	| win11 | gus new laptop | sl | AC-74-B1-02-FB-CF |	
 | 192.168.0.23 gusHPLaptop	| win10 | gus old laptop | sl | 00-23-8B-86-38-61 |	
-| ~~[https://192.168.0.23:32400/](https://192.168.0.23:32400/)~~ | removed plex | gusHPlex | app on gusHPLaptop | 00-23-8B-86-38-61 |
+
+- [Home Assistant Setup - Crosstalk youtube](https://youtu.be/Y38qRYYAwAI)
+- [Step guide](https://www.crosstalksolutions.com/home-assistant-the-ultimate-setup-guide-a-step-by-step-tutorial/)
 
 ## slDVR Storage Mapping (10.147.17.198 - 192.168.0.9)
 
@@ -168,6 +172,7 @@ ID	MAC Address	Reserved IP Address	Status	Modify
 17	AC-74-B1-02-FB-CF	192.168.0.28	Enabled	Modify Delete
 18	00-08-9B-E2-83-93	192.168.0.6	Enabled	Modify Delete
 19	00-15-17-5B-F2-80	192.168.0.9	Enabled	Modify Delete
+20	08-00-27-84-49-45	192.168.0.10	Enabled	Modify Delete
 ```
 
 DHCP 
