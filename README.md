@@ -2,9 +2,9 @@
 
 - [sl.2cld.net/docs](./docs/) - Main overview for sl
   - sl quick links
-    - CasaOS Dashboard >>>> [Gus - Dashboard CasaOS](http://192.168.0.70/)
+    - CasaOS Dashboard for network files >>>>>>> [Gus - Dashboard CasaOS](http://192.168.0.70/)
     - Guacamole Remote [Gus - Remote - Guacamole](http://192.168.0.70:8090/guacamole/#/)
-    - QNAP sg [QNAP NAS - sg - buadmin](http://192.168.0.6:8080/)
+    - [QNAP NAS - sg - buadmin](http://192.168.0.6:8080/) <<<< sl QNAP Dashboard
   - sl details
     - [sl.2cld.net/docs/storage](./docs/storage)
     - [sl.2cld.net/docs/devices](./docs/devices)
