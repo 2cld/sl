@@ -17,8 +17,8 @@
 |---------------------|---------|-------------|-------------|-----|
 | - | ns | netstack [ns docs](https://netstack.org/docs/) | - | - |
 | [http://192.168.0.1/](http://192.168.0.1/) | ng | tp-link [AC1750 Archer C7 doc](https://static.tp-link.com/res/down/doc/Archer_C7_V1_UG.pdf) ng | sl gb | 18-A6-F7-31-9C-06 |
-| ~~[http://192.168.0.2/](http://192.168.2.2/)~~ | sg | reserved nas sg on subnet | vm on cg | na |
-| [https://192.168.0.3:8006/](https://192.168.0.3:8006/) | cg | [root](https://192.168.0.3:8006/)reserved proxmox cg subnet | cg on i3 macmini hw | na |
+| ~~[http://192.168.0.2/](http://192.168.2.2/)~~ | sg | nas sg | vm on cg | na |
+| [https://192.168.0.3:8006/](https://192.168.0.3:8006/) | cg | [root](https://192.168.0.3:8006/) proxmox cg | cg on i3 macmini hw | na |
 | - | ns2 | - | ns backup | na |
 | ~~[http://192.168.0.5/](http://192.168.0.5/)~~ | ng2 | backup network gw | sl gb | na |
 | [http://192.168.0.6:8080/](http://192.168.0.6:8080/) | sg2 | [buadmin](http://192.168.0.6:8080/) qnap sg2 5.3TB Raid 0.5TB Used | sl-sb-sw3p2 | 00-08-9B-E2-83-93 |
@@ -27,7 +27,7 @@
 | [https://192.168.0.9:32400/](https://192.168.0.9:32400/) | slDVR | [slDVR](https://24.216.208.251:32500) on slwin11 -zt-10.147.17.198 .25TB-C 1.8TB-D 1.8TB-E | win app | 00-15-17-5B-F2-80 |
 |---------------------|---------|-------------|-------------|-----|
 | [Gus - Dashboard CasaOS](http://192.168.0.70/) | app |  vm slcg-100 | sl | 08-00-27-84-49-45 |
-| [Gus - Remote - Guacamole](http://192.168.0.70:8090/guacamole/#/)  | [ghadmin](http://192.168.0.70:8090/guacamole/#/) Guacamole | casoos app | sl | 08-00-27-84-49-xx |
+| [Gus - Remote - Guacamole](http://192.168.0.70:8090/guacamole/#/)  | [ghadmin](http://192.168.0.70:8090/guacamole/#/) | casoOS app | sl | 08-00-27-84-49-xx |
 | [Gus - HomeAssistant](http://192.168.0.10:8123/) | ha | - | - | na |
 | sl proxmox vms |---------|-------------|-------------|-----|
 | [http://192.168.0.70](http://192.168.0.70/)  | CasaOS | vm slcg-100 | sl | 08-00-27-84-49-45 |
@@ -41,17 +41,12 @@
 
 ---
 ## Maintainance
-- Plex check
-- NAS Storage check
-- Proxmox check
-- slwin11 check
-- CasaOS check
----
-## Referenc
-- [Home Assistant Setup - Crosstalk youtube](https://youtu.be/Y38qRYYAwAI)
-- [Step guide](https://www.crosstalksolutions.com/home-assistant-the-ultimate-setup-guide-a-step-by-step-tutorial/)
-- [Home Assistant Tuya](https://www.youtube.com/watch?v=k9_SyfToDEw)
-- [Home Assistant with Home Kit - Apple](https://www.youtube.com/watch?v=9G2f_c3fnyc)
+- Plex check [slDVR](https://24.216.208.251:32500)
+- NAS Storage sg check [http://192.168.0.6:8080/](http://192.168.0.6:8080/)
+- Proxmox slcg check [https://192.168.0.3:8006/](https://192.168.0.3:8006/)
+- slwin11 check [Gus - Remote - Guacamole](http://192.168.0.70:8090/guacamole/#/) - slwin
+- CasaOS check [Gus - Dashboard CasaOS](http://192.168.0.70/)
+- Router check [http://192.168.0.1/](http://192.168.0.1/)
 
 ---
 ---
