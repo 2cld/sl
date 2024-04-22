@@ -39,10 +39,24 @@
 | 192.168.0.28 gusGram	| win11 | gus new laptop | sl | AC-74-B1-02-FB-CF |	
 | 192.168.0.23 gusHPLaptop	| win10 | gus old laptop | sl | 00-23-8B-86-38-61 |	
 
+---
+## Maintainance
+- Plex check
+- NAS Storage check
+- Proxmox check
+- slwin11 check
+- CasaOS check
+---
+## Referenc
 - [Home Assistant Setup - Crosstalk youtube](https://youtu.be/Y38qRYYAwAI)
 - [Step guide](https://www.crosstalksolutions.com/home-assistant-the-ultimate-setup-guide-a-step-by-step-tutorial/)
 - [Home Assistant Tuya](https://www.youtube.com/watch?v=k9_SyfToDEw)
 - [Home Assistant with Home Kit - Apple](https://www.youtube.com/watch?v=9G2f_c3fnyc)
+
+---
+---
+Below has Moved to [storage.md](./storage.md)
+---
 
 ## slDVR Storage Mapping (10.147.17.198 - 192.168.0.9)
 
@@ -67,6 +81,11 @@
 | ~~N: \\192.168.6.2\catbox~~       | cfPlex  | TrueNAS catbox in catpool storage | cf | 0.90 |
 | O: \\192.168.6.10\plexnsds        | cfPlex  | [cfPlex0.md](./cfPlex0) StarTrek storage | cf | 1.78 |
 | P: \\192.168.6.6\pshare           | cfDVR | Synology NAS storage | cf | 10.0 |
+
+---
+---
+Below has Moved to [devices.md](./devices.md)
+---
 
 ## Media Ethernet Devices
 
@@ -213,10 +232,5 @@ ID	Client Name	MAC Address	Assigned IP	Lease Time
 26	LGwebOSTV	7C-1C-4E-5D-C5-F6	192.168.0.136	01:48:51
 ```
 
-## Maintainance
-- Plex check
-- NAS Storage check
-- Proxmox check
-- slwin11 check
-- CasaOS check
+
 
