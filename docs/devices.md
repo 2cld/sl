@@ -5,7 +5,8 @@
 |	na	                 | na                | na           | sw1p0 | Spectrum Modem  | sr | |
 |	Archer_C7 switch 1 sr | 18-A6-F7-31-9C-07 | 192.168.0.1  |sw1int | TP-LINK AC1720  | sr | [admin](http://192.168.0.1/) |
 | switch 1 to 2        | living room switch lr | na      |sw1p4-sw2p5 | sw1-sw2        |sr-lr| |
-| switch 2 to 3        | basement switch bm    | na      |sw2p4-sw3p1 | sw2-sw3        |lr-bm| |
+| switch 2 to 3        | basement switch office of    | na      |sw2p4-sw3p1 | sw2-sw3        |of-bm| |
+| switch 3 to 4        | basement switch livingroom lm    | na      |sw3p4-sw4p1 | sw3-sw4        |lr-bm| |
 | Steve Room |-----------------------|------------|-------|-----------------|----|------|
 |	~~StevesRokuUltra~~	| 8C-49-62-0B-69-8C | 192.168.0.24 | ~~sw2p4~~ | StevesRokuUltra | sr | |
 |	StevesRokuUltra	     | 8C-49-62-0B-69-8D | 192.168.0.14 | wifi  | StevesRokuUltra | sr | |
