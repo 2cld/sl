@@ -15,6 +15,7 @@
 
 
 ## Services [sl.2cld.net/docs/services/](./services.md)
+<!-- moved to services.md
 
 | Service admin Link  | type    | description | location    | mac |
 |---------------------|---------|-------------|-------------|-----|
@@ -42,7 +43,7 @@
 | 192.168.0.9  slwin11  | win11 | Dell 1U win11 zt-10.147.17.198 | sl | 00-15-17-5B-F2-80 |
 | 192.168.0.28 gusGram	| win11 | gus new laptop | sl | AC-74-B1-02-FB-CF |	
 | 192.168.0.23 gusHPLaptop	| win10 | gus old laptop | sl | 00-23-8B-86-38-61 |	
-
+-->
 ---
 ## Maintainance
 - Plex check [slDVR](https://24.216.208.251:32500)
