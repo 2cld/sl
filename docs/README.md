@@ -14,7 +14,7 @@
 - [netstack.org/docs](https://netstack.org/docs/)
 
 
-## Services [sl.2cld.net/docs/services/](./services)
+## Services [sl.2cld.net/docs/services/](./services.md)
 
 | Service admin Link  | type    | description | location    | mac |
 |---------------------|---------|-------------|-------------|-----|
