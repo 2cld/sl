@@ -25,6 +25,7 @@
 ## Services 
 - [services.md](./services.md)
 - tbd
+
 <!-- moved to services.md
 | Service admin Link  | type    | description | location    | mac |
 |---------------------|---------|-------------|-------------|-----|
@@ -54,7 +55,11 @@
 | 192.168.0.23 gusHPLaptop	| win10 | gus old laptop | sl | 00-23-8B-86-38-61 |	
 -->
 
-## slDVR Storage Mapping (10.147.17.198 - 192.168.0.9)
+## Storage 
+- [my.zerotier.com](https://my.zerotier.com) 
+  - slPlex QNAP NAS 10.147.17.198 - 192.168.0.9
+  - slwin11 (slDVR) Windows 11 10.147.17.198 - 192.168.0.9
+  - gusGram Windows 11 10.147.17.198 - 192.168.0.28
 - [storage.md](./storage.md)
 - tbd
 
