@@ -14,9 +14,18 @@
 - [netstack.org/docs](https://netstack.org/docs/)
 
 
-## Services [sl.2cld.net/docs/services/](./services.md)
-<!-- moved to services.md
+## Maintainance
+- Plex check [slDVR](https://24.216.208.251:32500)
+- NAS Storage sg check [http://192.168.0.6:8080/](http://192.168.0.6:8080/)
+- Proxmox slcg check [https://192.168.0.3:8006/](https://192.168.0.3:8006/)
+- slwin11 check [Gus - Remote - Guacamole](http://192.168.0.70:8090/guacamole/#/) - slwin
+- CasaOS check [Gus - Dashboard CasaOS](http://192.168.0.70/)
+- Router check [http://192.168.0.1/](http://192.168.0.1/)
 
+## Services 
+- [services.md](./services.md)
+- tbd
+<!-- moved to services.md
 | Service admin Link  | type    | description | location    | mac |
 |---------------------|---------|-------------|-------------|-----|
 | - | ns | netstack [ns docs](https://netstack.org/docs/) | - | - |
@@ -44,22 +53,12 @@
 | 192.168.0.28 gusGram	| win11 | gus new laptop | sl | AC-74-B1-02-FB-CF |	
 | 192.168.0.23 gusHPLaptop	| win10 | gus old laptop | sl | 00-23-8B-86-38-61 |	
 -->
----
-## Maintainance
-- Plex check [slDVR](https://24.216.208.251:32500)
-- NAS Storage sg check [http://192.168.0.6:8080/](http://192.168.0.6:8080/)
-- Proxmox slcg check [https://192.168.0.3:8006/](https://192.168.0.3:8006/)
-- slwin11 check [Gus - Remote - Guacamole](http://192.168.0.70:8090/guacamole/#/) - slwin
-- CasaOS check [Gus - Dashboard CasaOS](http://192.168.0.70/)
-- Router check [http://192.168.0.1/](http://192.168.0.1/)
-
----
----
-Below has Moved to [storage.md](./storage.md)
----
 
 ## slDVR Storage Mapping (10.147.17.198 - 192.168.0.9)
-
+- [storage.md](./storage.md)
+- tbd
+<!--
+Below has Moved to [storage.md](./storage.md)
 | slDVR 10.147.17.198 /192.168.0.9 | Plex | Plex Libraries | location | size TB |
 |-----------------------------------|------|-------------|-------------|-----|
 | C: local | none | system | sl | 0.25 |
@@ -67,9 +66,7 @@ Below has Moved to [storage.md](./storage.md)
 | E: local | none  | local | sl | 1.81 |
 | G: \\192.168.0.6\plex | slDVR | [gusHPlexG.md](./gusHPlexG) remoted storage | sl | 5.33 |
 | T: \\10.147.19.228\catDVR | cfPlex  | TrueNAS catbox in catpool storage | cf | 1.00 |
-
 ## cfPlex Storage Mapping (10.147.17.228 - 192.168.6.2) from [https://cf.2cld.net/docs/](https://cf.2cld.net/docs/)
-
 | cfPlex 10.147.17.228 /192.168.6.2 | Plex | Plex Libraries | location | size TB |
 |-----------------------------------|------|-------------|-------------|-----|
 | C: local                          | none | none | cf | 0.90 |
@@ -81,14 +78,13 @@ Below has Moved to [storage.md](./storage.md)
 | ~~N: \\192.168.6.2\catbox~~       | cfPlex  | TrueNAS catbox in catpool storage | cf | 0.90 |
 | O: \\192.168.6.10\plexnsds        | cfPlex  | [cfPlex0.md](./cfPlex0) StarTrek storage | cf | 1.78 |
 | P: \\192.168.6.6\pshare           | cfDVR | Synology NAS storage | cf | 10.0 |
-
----
----
-Below has Moved to [devices.md](./devices.md)
----
+-->
 
 ## Media Ethernet Devices
+- [devices.md](./devices.md)
+- tbd
 
+<!--
 | Network Name     | MAC Address-          | IP         | port  | description     | rm | link |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
 |	na	                 | na                | na           | sw1p0 | Spectrum Modem  | sr | |
@@ -101,7 +97,8 @@ Below has Moved to [devices.md](./devices.md)
 |	TIVO-8480001902B1749 | 00-11-D9-5F-47-83 | 192.168.0.15 | wifi  | Steves640       | sr | |
 |	TIVO-8480001902B1749 | 00-11-D9-5F-47-82 | 192.168.0.11 | sw1p1 | Steves640       | sr | |
 | TIVO-748000190569948 | 00-11-D9-35-02-A8 | 192.168.0.12 | sw1p2 | Steves320       | sr | |
-|	HDHR-10802956	       | 00-18-DD-08-02-95 | 192.168.0.13 | sw2p4 | plexTuner       | sr | [admin](http://192.168.0.13/) |
+|	HDHR-10802956	       | 00-18-DD-08-02-95 | 192
+.168.0.13 | sw2p4 | plexTuner       | sr | [admin](http://192.168.0.13/) |
 | Living Room |-----------------------|--------------|-------|-----------------|----|------|
 |	~~KathysRokuUltra~~	 | 84-EA-ED-A8-64-9x | na           | wifi  | KathysRokuUltra | lr | |
 |	KathysRokuUltra	     | 84-EA-ED-A8-64-91 | 192.168.0.21 | sw2p1 | KathysRokuUltra | lr | |
@@ -121,6 +118,7 @@ Below has Moved to [devices.md](./devices.md)
 |	catSurface   	       | 28-18-78-C7-FC-23 | 192.168.0.212 | sw3p5  | suface   chris  | bm | cat ghadmin |
 |	Pixel-6a    	       | 86-50-46-38-28-96 | 192.168.0.213 | wifi  | Pixel-6a chris  | bm | |
 | FireTV cube          | A4-08-01-60-57-35 | 192.168.0.214 | wifi  | FireTV   chris  | bm | |
+-->
 
 ## Coax
 
