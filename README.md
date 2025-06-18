@@ -1,5 +1,19 @@
 [edit](https://github.com/2cld/sl/edit/main/README.md)
 
+- sl zt remote [cat-ghadmin-grid](https://my.zerotier.com/network/d5e5fb65371eb4a4)
+  - [sl-zt-94-slwin11ops-ghadmin](./ops/rdp/README.md) Compute for sl - Windows 11 ops - i3 Dell 8GB
+  - [sl-zt-198-slwin11-ghadmin](./ops/rdp/README.md) bu Compute for sl - Window 11 - old 1U Dell 32GB
+- sl gd remote [remotedesktop-ghadmin](https://remotedesktop.google.com/access)
+  - gusGram
+  - gusHPLaptop
+- sl details
+  - [sl.2cld.net/docs/storage](./docs/storage)
+  - [sl.2cld.net/docs/devices](./docs/devices)
+
+---
+---
+Pre 2025.06.18 update
+---
 - [sl.2cld.net/docs](./docs/) - Main overview for sl
   - sl quick links
     - CasaOS Dashboard for network files >>>>>>> [Gus - Dashboard CasaOS](http://192.168.0.70/) - [casaos docs](https://netstack.org/docs/portals/casaos/)
