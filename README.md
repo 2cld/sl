@@ -8,6 +8,7 @@
   - sl [google remotedesktop-ghadmin](https://remotedesktop.google.com/access)
     - gusGram
     - gusHPLaptop
+  - sl [install](./install)
 - sl details
   - [sl.2cld.net/docs/storage](./docs/storage)
   - [sl.2cld.net/docs/devices](./docs/devices)
