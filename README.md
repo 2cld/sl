@@ -1,11 +1,13 @@
 [edit](https://github.com/2cld/sl/edit/main/README.md)
 
-- sl zt remote [cat-ghadmin-grid](https://my.zerotier.com/network/d5e5fb65371eb4a4)
-  - [sl-zt-94-slwin11ops-ghadmin](./ops/rdp/README.md) Compute for sl - Windows 11 ops - i3 Dell 8GB
-  - [sl-zt-198-slwin11-ghadmin](./ops/rdp/README.md) bu Compute for sl - Window 11 - old 1U Dell 32GB
-- sl gd remote [remotedesktop-ghadmin](https://remotedesktop.google.com/access)
-  - gusGram
-  - gusHPLaptop
+- sl [ops](./ops)
+  - sl [backup](./ops/backup)
+  - sl [zt rdp remote](./ops/rdp) - network [cat-ghadmin-grid](https://my.zerotier.com/network/d5e5fb65371eb4a4)
+    - [sl-zt-94-slwin11ops-ghadmin](./ops/rdp/README.md) Compute for sl - Windows 11 ops - i3 Dell 8GB
+    - [sl-zt-198-slwin11-ghadmin](./ops/rdp/README.md) bu Compute for sl - Window 11 - old 1U Dell 32GB
+  - sl [google remotedesktop-ghadmin](https://remotedesktop.google.com/access)
+    - gusGram
+    - gusHPLaptop
 - sl details
   - [sl.2cld.net/docs/storage](./docs/storage)
   - [sl.2cld.net/docs/devices](./docs/devices)
