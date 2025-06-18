@@ -1,4 +1,5 @@
 # sl ops
 
-- ops [remote desktops](./rdp)
+- ops [microsoft remote desktop rdp](./rdp)
+- ops [remotedesktop.google](https://remotedesktop.google.com)
 - ops tbd [tbd](./)
