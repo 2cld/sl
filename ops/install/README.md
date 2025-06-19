@@ -1,10 +1,10 @@
 # Install
 
 - windows
-  - slwin11ops
-  - slwin11
-  - gusGram
-  - gusHPLaptop
+  - [slwin11ops](./slwin11ops-notes.md) based on [netstack nswin11-cg](https://netstack.org/docs/lan/compute/workstation/nswin11-cg)
+  - [slwin11](./slwin11-notes.md) based on [netstack nswin10](https://netstack.org/docs/lan/compute/workstation/nswin10)
+  - gusGram (no notes)
+  - gusHPLaptop (no notes)
 - zerotier
   - [cat-ghadmin-grid](https://my.zerotier.com/network/d5e5fb65371eb4a4)
 - google remote desktop
