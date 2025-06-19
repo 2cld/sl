@@ -9,11 +9,11 @@
   - sl [ops/rdp - google remotedesktop-ghadmin](https://remotedesktop.google.com/access)
     - gusGram
     - gusHPLaptop
-  - sl [ops/install](./ops/install)
-    - slwin11ops
-    - slwinll
-    - gusGram
-    - gusHPLaptop
+  - sl [ops/install](./ops/install) node
+    - [slwin11ops](./ops/install/) node is based on [netstack nswin11-cg](https://netstack.org/docs/lan/compute/workstation/nswin11-cg)
+    - [slwinll]() node is based on [netstack nswin10](https://netstack.org/docs/lan/compute/workstation/nswin10)
+    - gusGram preconfigured
+    - gusHPLaptop preconfigured
 - sl details
   - [sl.2cld.net/docs/storage](./docs/storage)
   - [sl.2cld.net/docs/devices](./docs/devices)
