@@ -1,4 +1,4 @@
-[edit]()
+[edit](https://github.com/2cld/sl/edit/main/ops/install/slwin11ops-notes.md)
 # slwin11ops notes
 
 based on 
