@@ -29,9 +29,11 @@ based on
 | [traefik.2cld.com](https://traefik.2cld.com) <br/> [tf.lan](http://tf.lan) or [traefik.lan](http://traefik.lan) |172.31.46.229|80:80<br/>443:443| 192.168.0.3 | 10.147.17.94 | xx | [sl-2cld](https://one.dash.cloudflare.com/) |
 | [portainer.2cld.com](https://portainer.2cld.com) <br/> [pt.lan:9000](http://pt.lan:9000) or [portainer.lan:9443](https://portainer.lan:9443) |172.31.46.229|8000:8000<br/>9000:9000<br/>9443:9443| 192.168.0.3 | 10.147.17.94 | xx | [sl-2cld](https://one.dash.cloudflare.com/) |
 | [gitea.2cld.com](https://gitea.2cld.com) |172.31.46.229|3000:3000| 192.168.0.3 | 10.147.17.94 | xx | [sl-2cld](https://one.dash.cloudflare.com/) |
+| [slcp.2cld.com](https://slcp.2cld.com) |172.31.46.229|9090:9090| 192.168.0.3 | 10.147.17.94 | xx | [sl-2cld](https://one.dash.cloudflare.com/) |
 | xx |172.31.46.229|xx| 192.168.0.3 | 10.147.17.94 | xx | cf |
 
 ### maintenance notes
 - ssh to gitea not setup
+- https://wiki.archlinux.org/title/Gitea#Enable_SSH_Support
 - ubuntu user of 24.04 wsl (need to look at install of wsl ubuntu)
-- tbd
+- sudo apt-get install cockpit -y
