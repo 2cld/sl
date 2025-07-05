@@ -1,9 +1,9 @@
 [edit](https://github.com/2cld/sl/edit/main/README.md)
 
 - sl docs [sl.2cld.net/docs](./docs)
+  - [sl.2cld.net/docs/devices](./docs/devices)
   - [sl.2cld.net/docs/services](./docs/services)
   - [sl.2cld.net/docs/storage](./docs/storage)
-  - [sl.2cld.net/docs/devices](./docs/devices)
 
 ---
 
