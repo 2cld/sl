@@ -1,8 +1,9 @@
 [edit](https://github.com/2cld/sl/edit/main/docs/README.md)
 
+- [devices.md](./devices.md)
 - [services.md](./services.md)
 - [storage.md](./storage.md)
-- [devices.md](./devices.md)
+
 
 # WAN
 | External Service             | type | description | location    |
