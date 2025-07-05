@@ -12,20 +12,20 @@
 ### Network IP netStack
 | Name     | MAC       | IP         | port  | description     | rm | link |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
-|	slng Archer_C7 switch 1 sr | 18-A6-F7-31-9C-07 | 192.168.0.1  |sw1int | TP-LINK AC1720  | sr | [admin](http://192.168.0.1/) |
-| slsg sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.2 | xx |  [sl??]()  | xx | ghadmin |
-| slcg sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.3 | xx |  [sl??]()  | xx | ghadmin |
+|	ng sl Archer_C7 switch 1 sr | 18-A6-F7-31-9C-07 | 192.168.0.1  |sw1int | TP-LINK AC1720  | sr | [admin](http://192.168.0.1/) |
+| sg sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.2 | xx |  [sl??]()  | xx | ghadmin |
+| cg sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.3 | xx |  [sl??]()  | xx | ghadmin |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
-| slxx sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.4 | xx |  [sl??]()  | xx | ghadmin |
+| xx sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.4 | xx |  [sl??]()  | xx | ghadmin |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
-| slng2 sl?? | xx-xx-xx-xx-xx-xx | 192.168.0.5 | xx |  [sl??]()  | xx | ghadmin |
-|	sg2        | 00-08-9B-E2-83-93 | 192.168.0.6 | sw3p2 | [slPlex](https://192.168.0.6:32400)  | bm | [buadmin](http://192.168.0.6:8080/) |
-| slcg2 sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.7 | xx |  [sl??]()  | xx | ghadmin |
+| ng2 sl?? | xx-xx-xx-xx-xx-xx | 192.168.0.5 | xx |  [sl??]()  | xx | ghadmin |
+|	~~sg2~~  | 00-08-9B-E2-83-93 | 192.168.0.6 | sw3p2 | not running ~~[slPlex](https://192.168.0.6:32400)~~  | bm | ~~[buadmin](http://192.168.0.6:8080/)~~ |
+| cg2 sl | B0-83-FE-65-80-80 | 192.168.0.7 | sw3p2 |  [sl??]()  | xx | ghadmin |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
 | sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.8 | xx |  [sl??]()  | xx | ghadmin |
-|	slwin11 on hw | 00-15-17-5B-F2-80 | 192.168.0.9 | sw3p3 |  [slDVR](https://192.168.0.9:32400)  | bm | sladmin ghadmin |
+|	~~slwin11~~ | 00-15-17-5B-F2-80 | 192.168.0.9 | sw3p3 |  not running ~~[slDVR](https://192.168.0.9:32400)~~  | bm | sladmin ghadmin |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
-|	ubunt22 vm on slwin11 | 08-00-27-84-49-45 | 192.168.0.10 | vswitch | not running  | vm | ubuntu22 ghadmin |
+|	~~ubunt22 vm on slwin11~~ | 08-00-27-84-49-45 | 192.168.0.10 | vswitch | not running  | vm | ubuntu22 ghadmin |
 | Steve Room |-----------------------|------------|-------|-----------------|----|------|
 |	TIVO-8480001902B1749 | 00-11-D9-5F-47-82 | 192.168.0.11 | sw1p1 | Steves640       | sr | |
 | TIVO-748000190569948 | 00-11-D9-35-02-A8 | 192.168.0.12 | sw1p2 | Steves320       | sr | |
