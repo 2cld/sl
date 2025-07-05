@@ -1,6 +1,13 @@
 [edit](https://github.com/2cld/sl/edit/main/README.md)
 
-- sl [ops](./ops) based on [https://netstack.org/docs/ops/](https://netstack.org/docs/ops/)
+- sl docs [sl.2cld.net/docs](./docs)
+  - [sl.2cld.net/docs/services](./docs/services)
+  - [sl.2cld.net/docs/storage](./docs/storage)
+  - [sl.2cld.net/docs/devices](./docs/devices)
+
+---
+
+- sl ops [sl.2cld.net/ops](./ops) based on [https://netstack.org/docs/ops/](https://netstack.org/docs/ops/)
   - sl [ops/backup](./ops/backup) based on [https://netstack.org/docs/ops/backup](https://netstack.org/docs/ops/backup)
     - slwin11ops backup script
   - sl [ops/rdp - zt remote](./ops/rdp) - network [cat-ghadmin-grid](https://my.zerotier.com/network/d5e5fb65371eb4a4)
@@ -14,9 +21,6 @@
     - [slwinll]() node is based on [netstack nswin10](https://netstack.org/docs/lan/compute/workstation/nswin10)
     - gusGram preconfigured
     - gusHPLaptop preconfigured
-- sl details
-  - [sl.2cld.net/docs/storage](./docs/storage)
-  - [sl.2cld.net/docs/devices](./docs/devices)
 
 ---
 ---
