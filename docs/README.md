@@ -1,5 +1,10 @@
 [edit](https://github.com/2cld/sl/edit/main/docs/README.md)
 
+- [services.md](./services.md)
+- [storage.md](./storage.md)
+- [devices.md](./devices.md)
+
+# WAN
 | External Service             | type | description | location    |
 |------------------------------|------|-------------|-------------|
 |      24.216.208.251 : 32500  | 0.9 plex | [slDVR](https://24.216.208.251:32500) | sl |
@@ -13,7 +18,7 @@
 - [sl.2cld.net/docs](https://sl.2cld.net/docs)
 - [netstack.org/docs](https://netstack.org/docs/)
 
-
+# LAN
 ## Maintainance
 - Plex check [slDVR](https://24.216.208.251:32500)
 - NAS Storage sg check [http://192.168.0.6:8080/](http://192.168.0.6:8080/)
@@ -56,11 +61,11 @@
 -->
 
 ## Storage 
+- [storage.md](./storage.md)
 - [my.zerotier.com](https://my.zerotier.com) 
   - slPlex QNAP NAS 10.147.17.198 - 192.168.0.9
   - slwin11 (slDVR) Windows 11 10.147.17.198 - 192.168.0.9
   - gusGram Windows 11 10.147.17.198 - 192.168.0.28
-- [storage.md](./storage.md)
 - tbd
 
 <!--
