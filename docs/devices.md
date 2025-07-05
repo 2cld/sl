@@ -1,15 +1,17 @@
 ## Media Ethernet Devices
 
 ### Physical Routers and Switches
-| Name     | MAC Address-          | IP         | port  | description     | rm | link |
+
+| Hardware         | location purpose      | IP         | con port  | description     | rm | link |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
-|	na	                 | na                | na           | sw1p0 | Spectrum Modem  | sr | |
-|	na	                 | na                | 192.168.1.1  | sw1p0 | Spectrum WiFi  | sr | |
-| switch 1 to 2        | living room switch lr | na      |sw1p4-sw2p5 | sw1-sw2        |sr-lr| |
-| switch 2 to 3        | basement switch office of    | na      |sw2p4-sw3p1 | sw2-sw3        |of-bm| |
-| switch 3 to 4        | basement switch livingroom lm    | na      |sw3p4-sw4p1 | sw3-sw4        |lr-bm| |
+|	na	             | na                    | na           | sw1p0 | Spectrum Modem  | sr | |
+|	na	             | na                    | 192.168.1.1  | sw1p0 | Spectrum WiFi  | sr | [admin portal](http://192.168.1.1) |
+| switch 1 to 2    | living room switch lr | na           |sw1p4-sw2p5 | sw1-sw2        |sr-lr| |
+| switch 2 to 3    | basement switch office of | na       |sw2p4-sw3p1 | sw2-sw3        |of-bm| |
+| switch 3 to 4    | basement switch livingroom lm | na   |sw3p4-sw4p1 | sw3-sw4        |lr-bm| |
 
 ### Network IP netStack
+
 | Name     | MAC       | IP         | port  | description     | rm | link |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
 |	ng sl Archer_C7 switch 1 sr | 18-A6-F7-31-9C-07 | 192.168.0.1  |sw1int | TP-LINK AC1720  | sr | [admin](http://192.168.0.1/) |
@@ -44,6 +46,7 @@
 |	TIVO-74600019083B6E2 | 00-11-D9-38-0B-FC | 192.168.0.22 | sw2p2 | Kathys160       | lr | |
 
 ### Other devices temp
+
 | Name | MAC          | IP         | port  | description     | rm | link |
 |--------------|--------------|------------|-------|-----------------|----|------|
 | gusHPLaptop          | 00-23-8B-86-38-61 | 192.168.0.xx | sw2p3 | gusHPLaptop win10 | lr | [gusHPlex](http://192.168.0.23:32400) ghadmin |
