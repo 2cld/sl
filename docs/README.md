@@ -20,6 +20,21 @@
 - [netstack.org/docs](https://netstack.org/docs/)
 
 # LAN
+- pull from 192.168.0.1 DHCP clients
+
+| ID| Client Name	| MAC Address	| Assigned IP	| Lease Time|
+|---|-------------|-------------|-------------|-----------|
+| 1	| StevesRokuUltra	| 8C-49-62-0B-69-8D	| 192.168.0.14| Permanent| 
+| 2	| TIVO-8480001902B1749	| 00-11-D9-5F-47-82	| 192.168.0.11| Permanent| 
+| 3	| TIVO-8480001902B1749	| 00-11-D9-5F-47-83	| 192.168.0.15|	Permanent|
+| 4	| TIVO-748000190569948	| 00-11-D9-35-02-A8	| 192.168.0.12|	Permanent|
+| 5	| mg2	| 00-15-5D-09-BF-02	| 192.168.0.140|	01:23:22|
+| 6	| gusHPLaptop	| 00-23-8B-86-38-61	| 192.168.0.141|	01:21:03|
+| 7	| Unknown	| B0-B9-8A-53-B7-84	| 192.168.0.142|	01:22:59|
+| 8	| HDHR-10802956	| 00-18-DD-08-02-95	| 192.168.0.13|	Permanent|
+| 9	| slwin11ops	| B0-83-FE-65-80-80	| 192.168.0.143|	01:22:13|
+| 10| TIVO-74600019083B6E2	| 00-11-D9-38-0B-FC	| 192.168.0.22| |
+
 ## Maintainance
 - Plex check [slDVR](https://24.216.208.251:32500)
 - NAS Storage sg check [http://192.168.0.6:8080/](http://192.168.0.6:8080/)
