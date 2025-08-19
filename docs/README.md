@@ -4,23 +4,29 @@
 - [services.md](./services.md)
 - [storage.md](./storage.md)
 
+# new router ipv6 - 1.x
+- 24.216.208.255
+- 2600:6c40:7006:200:1c0e:1976:ae6d:54a6
+| WAN MAC Address | IP Address | Subnet Mask | GW | DNS |
+|--|--|--|--|--|
+| 18-A6-F7-31-9C-07 | 192.168.1.236 | 255.255.255.0 | 192.168.1.1 | 8.8.8.8 , 71.10.216.2 |
 
-# WAN
-| External Service             | type | description | location    |
+- old pre ipv6
+
+| External Services            | type | description | location    |
 |------------------------------|------|-------------|-------------|
 |      24.216.208.251 : 32500  | 0.9 plex | [slDVR](https://24.216.208.251:32500) | sl |
 |      24.149.22.11   : 32400  | 6.3 plex | [cfPlex](https://24.149.22.11:32400) | cf |
 |      24.149.22.11   : 32500  | 6.6 plex | [cfDVR](https://24.149.22.11:32500)  | cf |
-| test.christrees.com :  2020  | 6.2 ssh  | sg | cf |
-| test.christrees.com :  2021  | 6.6 ssh  | sg2 | cf |
 
 - [tv.2cld.net](https://tv.2cld.net/)
 - [cf.2cld.net/docs](https://cf.2cld.net/docs)
 - [sl.2cld.net/docs](https://sl.2cld.net/docs)
 - [netstack.org/docs](https://netstack.org/docs/)
 
-# LAN
+# 1.x - 0.x LAN
 - pull from 192.168.0.1 DHCP clients
+Private 192.168.0.143 : 32400  Public 149.102.242.64 : 32400   Internet
 
 | ID| Client Name	| MAC Address	| Assigned IP	| Lease Time|
 |---|-------------|-------------|-------------|-----------|
