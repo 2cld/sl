@@ -15,8 +15,8 @@ ssh -p 2222 ghadmin@10.147.17.94
 | Service admin Link  | type    | description | location    | mac |
 |---------------------|---------|-------------|-------------|-----|
 | ops machines | - | - | - | na |
-| 192.168.0.143  slwin11ops  | win11 | Dell i5 win11 [zt-10.147.17.94](https://my.zerotier.com/network/d5e5fb65371eb4a4) | sl | xx |
-| 192.168.0.140  mg2  | Ub2404 | hv-vm Dell i5 win11 [zt-10.147.17.135](https://my.zerotier.com/network/d5e5fb65371eb4a4) | sl | 00:15:5d:09:bf:02 |
+| 192.168.0.143  [slwin11ops-notes](../ops/install/slwin11ops-notes)  | win11 | Dell i5 win11 [zt-10.147.17.94](https://my.zerotier.com/network/d5e5fb65371eb4a4) | sl | xx |
+| 192.168.0.140  [slwin11ops-hv-mg2-notes](../ops/install/slwin11ops-hv-mg2-notes)  | Ub2404 | hv-vm Dell i5 win11 [zt-10.147.17.135](https://my.zerotier.com/network/d5e5fb65371eb4a4) | sl | 00:15:5d:09:bf:02 |
 | ~~192.168.0.9  slwin11~~  | win11 | Dell 1U win11 [zt-10.147.17.198](https://my.zerotier.com/network/d5e5fb65371eb4a4) | sl | 00-15-17-5B-F2-80 |
 | 192.168.0.28 gusGram	| win11 | gus new laptop [zt-10.147.17.190](https://my.zerotier.com/network/d5e5fb65371eb4a4) | sl | AC-74-B1-02-FB-CF |	
 | 192.168.0.23 gusHPLaptop	| win10 | gus old laptop [zt-10.147.17.??](https://my.zerotier.com/network/d5e5fb65371eb4a4) | sl | 00-23-8B-86-38-61 |	
