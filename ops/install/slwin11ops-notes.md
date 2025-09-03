@@ -37,3 +37,51 @@ based on
 - https://wiki.archlinux.org/title/Gitea#Enable_SSH_Support
 - ubuntu user of 24.04 wsl (need to look at install of wsl ubuntu)
 - sudo apt-get install cockpit -y
+
+### ipconfig
+```
+C:\Users\ghadmin>ipconfig
+
+Windows IP Configuration
+Ethernet adapter vEthernet (ExternalHVwifi):
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+Ethernet adapter vEthernet (InternalHV):
+   Connection-specific DNS Suffix  . :
+   Autoconfiguration IPv4 Address. . : 169.254.164.115
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . :
+Ethernet adapter vEthernet (ExternalHVether):
+   Connection-specific DNS Suffix  . :
+   IPv4 Address. . . . . . . . . . . : 192.168.0.143
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.0.1
+Wireless LAN adapter Local Area Connection* 1:
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+Wireless LAN adapter Local Area Connection* 2:
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+Ethernet adapter ZeroTier One [d5e5fb65371eb4a4]:
+   Connection-specific DNS Suffix  . :
+   IPv4 Address. . . . . . . . . . . : 10.147.17.94
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 25.255.255.254
+Ethernet adapter Bluetooth Network Connection:
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+Ethernet adapter vEthernet (Default Switch):
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::a602:d9c9:fab9:758d%33
+   IPv4 Address. . . . . . . . . . . : 172.21.240.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::6ab9:9351:235a:4ecb%67
+   IPv4 Address. . . . . . . . . . . : 172.31.32.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+
+C:\Users\ghadmin>
+```
