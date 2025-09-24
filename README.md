@@ -9,7 +9,7 @@
 
 ## External
 
-| [cf-cat9me](https://one.dash.cloudflare.com/830c41d5976453f0c03f34d4f765b229/networks/tunnels) hv url | service [zt](https://my.zerotier.com/network/d5e5fb65371eb4a4) |
+| [cf-cat9me ct](https://one.dash.cloudflare.com/830c41d5976453f0c03f34d4f765b229/networks/tunnels) cf hv url | service [zt gh](https://my.zerotier.com/network/d5e5fb65371eb4a4) |
 |---|---|
 | [https://traefik.cat9.me](https://traefik.cat9.me) | traefik [cflare](https://dash.cloudflare.com/)->[ct-hv](10.147.17.219)->[nsdockerhb](10.147.17.176)->[traefik](172.18.0.2) |
 | [https://portainer.cat9.me](https://portainer.cat9.me) | portainer [cflare](https://dash.cloudflare.com/)->[ct-hv](10.147.17.219)->[nsdockerhb](10.147.17.176)->[portainer](172.18.0.7) |
@@ -17,14 +17,14 @@
 | [https://nginx.cat9.me](https://nginx.cat9.me) | nginx [cflare](https://dash.cloudflare.com/)->[ct-hv](10.147.17.219)->[nsdockerhb](10.147.17.176)->[nginx](172.18.0.4) |
 | [https://netbox.cat9.me](https://netbox.cat9.me) | netbox [cflare](https://dash.cloudflare.com/)->[ct-hv](10.147.17.219)->[nsdockerhb](10.147.17.176)->[netbox](172.18.0.8) |
 
-| [cf-2cld](https://one.dash.cloudflare.com/830c41d5976453f0c03f34d4f765b229/networks/tunnels) sg2 url | service [zt](https://my.zerotier.com/network/d5e5fb65371eb4a4) |
+| [cf-2cld ct](https://one.dash.cloudflare.com/830c41d5976453f0c03f34d4f765b229/networks/tunnels) wf sg2 url | service [zt gh](https://my.zerotier.com/network/d5e5fb65371eb4a4) |
 |---|---|
 | [https://metube.klopfenstein.org](https://metube.klopfenstein.org) | metube [cflare](https://dash.cloudflare.com/)->[cfDVR](10.147.17.209)->[metube](http://192.168.9.2:8081) |
 | [https://gitea.klopfenstein.org](https://gitea.klopfenstein.org) | gitea [cflare](https://dash.cloudflare.com/)->[cfDVR](10.147.17.209)->[gitea](http://192.168.9.2:3000) |
 | [https://sg.klopfenstein.org](https://sg.klopfenstein.org) | sg portal [cflare](https://dash.cloudflare.com/)->[cfDVR](10.147.17.209)->[cfDVR-portal](http://192.168.9.2:5000) |
 |---|---|
 
-| [sl-2cld ct](https://one.dash.cloudflare.com/830c41d5976453f0c03f34d4f765b229/networks/tunnels) hv url | service [zt gh](https://my.zerotier.com/network/d5e5fb65371eb4a4) |
+| [sl-2cld ct](https://one.dash.cloudflare.com/830c41d5976453f0c03f34d4f765b229/networks/tunnels) sl hv url | service [zt gh](https://my.zerotier.com/network/d5e5fb65371eb4a4) |
 |---|---|
 | [https://traefik.2cld.com](https://traefik.2cld.com) | traefik [cflare](https://dash.cloudflare.com/)->[slwinll-hv](10.147.17.219)->[mg2](10.147.17.135)->[traefik](172.18.0.??) |
 | [https://portainer.2cld.com](https://portainer.2cld.com) | portainer [cflare](https://dash.cloudflare.com/)->[slwinll-hv](10.147.17.219)->[mg2](10.147.17.135)->[portainer](172.18.0.??) |
