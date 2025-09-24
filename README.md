@@ -23,13 +23,16 @@
 | [https://gitea.klopfenstein.org](https://gitea.klopfenstein.org) | gitea [cflare](https://dash.cloudflare.com/)->[cfDVR](10.147.17.209)->[gitea](http://192.168.9.2:3000) |
 | [https://sg.klopfenstein.org](https://sg.klopfenstein.org) | sg portal [cflare](https://dash.cloudflare.com/)->[cfDVR](10.147.17.209)->[cfDVR-portal](http://192.168.9.2:5000) |
 | [https://jp.klopfenstein.org](https://jp.klopfenstein.org) | dav [cflare](https://dash.cloudflare.com/)->[cfDVR](10.147.17.209)->[cfDVR-dav](http://192.168.9.2:5005) |
-|---|---|
+
 
 | [sl-2cld ct](https://one.dash.cloudflare.com/830c41d5976453f0c03f34d4f765b229/networks/tunnels) sl hv url | service [zt gh](https://my.zerotier.com/network/d5e5fb65371eb4a4) |
 |---|---|
 | [https://traefik.2cld.com](https://traefik.2cld.com) | traefik [cflare](https://dash.cloudflare.com/)->[slwinll-hv](10.147.17.219)->[mg2](10.147.17.135)->[traefik](172.18.0.??) |
 | [https://portainer.2cld.com](https://portainer.2cld.com) | portainer [cflare](https://dash.cloudflare.com/)->[slwinll-hv](10.147.17.219)->[mg2](10.147.17.135)->[portainer](172.18.0.??) |
 | [https://gitea.2cld.com](https://gitea.2cld.com) | gitea [cflare](https://dash.cloudflare.com/)->[slwinll-hv](10.147.17.198)->[mg2](10.147.17.135)->[gitea](172.18.0.??) |
+
+
+| old [cf-2cld ct](https://one.dash.cloudflare.com/830c41d5976453f0c03f34d4f765b229/networks/tunnels) sl hv url | service [zt gh](https://my.zerotier.com/network/d5e5fb65371eb4a4) |
 |---|---|
 | ~~[https://chat.bradnordyke.com](https://chat.bradnordyke.com)~~ | ollama open-webui ->[cflare](https://dash.cloudflare.com/)->ct-hv-wsl-docker-owui |
 | ~~[https://rt.bradnordyke.com](https://rt.bradnordyke.com)~~ | rust test ->[cflare](https://dash.cloudflare.com/)->ct-hv-wsl |
