@@ -1,5 +1,7 @@
 [edit-github](https://github.com/2cld/sl/edit/main/README.md)
 
+Update to attempt mkdocs
+
 ---
 
 ## External
