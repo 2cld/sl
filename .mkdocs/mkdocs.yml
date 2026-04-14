@@ -2,7 +2,7 @@ site_name: SL node
 site_url: https://sl.2cld.net
 site_description: SL Home Lab Infrastructure Documentation
 docs_dir: ..
-site_dir: ../site
+site_dir: /tmp/mkdocs-site
 
 nav:
   - Home: README.md
