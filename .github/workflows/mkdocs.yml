@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 permissions:
   contents: write
 
@@ -27,6 +30,4 @@ jobs:
       - run: pip install mkdocs-material
 
       # Step 4: Build and deploy to gh-pages branch
-      # Uses the config file in .mkdocs/ since docs_dir
-      # can't be the same directory as the config file
       - run: mkdocs gh-deploy --force --config-file .mkdocs/mkdocs.yml
