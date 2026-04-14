@@ -15,19 +15,8 @@
 | Name     | MAC       | IP         | port  | description     | rm | link |
 |------------------|-----------------------|------------|-------|-----------------|--|------|
 |	ng sl Archer_C7 switch 1 sr | 18-A6-F7-31-9C-07 | 192.168.0.1  |sw1int | TP-LINK AC1720  | sr | [admin](http://192.168.0.1/) |
-| sg sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.2 | xx |  [sl??]()  | xx | ghadmin |
-| cg sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.3 | xx |  [sl??]()  | xx | ghadmin |
-|------------------|-----------------------|------------|-------|-----------------|--|------|
-| xx sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.4 | xx |  [sl??]()  | xx | ghadmin |
-|------------------|-----------------------|------------|-------|-----------------|--|------|
-| ng2 sl?? | xx-xx-xx-xx-xx-xx | 192.168.0.5 | xx |  [sl??]()  | xx | ghadmin |
-|	~~sg2~~  | 00-08-9B-E2-83-93 | 192.168.0.6 | sw3p2 | not running ~~[slPlex](https://192.168.0.6:32400)~~  | bm | ~~[buadmin](http://192.168.0.6:8080/)~~ |
-| cg2 sl | B0-83-FE-65-80-80 | 192.168.0.7 | sw3p2 |  [sl??]()  | xx | ghadmin |
-|------------------|-----------------------|------------|-------|-----------------|--|------|
-| sl??? | xx-xx-xx-xx-xx-xx | 192.168.0.8 | xx |  [sl??]()  | xx | ghadmin |
-|	~~slwin11~~ | 00-15-17-5B-F2-80 | 192.168.0.9 | sw3p3 |  not running ~~[slDVR](https://192.168.0.9:32400)~~  | bm | sladmin ghadmin |
-|------------------|-----------------------|------------|-------|-----------------|--|------|
-|	~~ubunt22 vm on slwin11~~ | 08-00-27-84-49-45 | 192.168.0.10 | vswitch | not running  | vm | ubuntu22 ghadmin |
+| slwin11ops | B0-83-FE-65-80-80 | 192.168.0.143 | sw3p? |  slwin11ops Dell i5 win11  | bm | ghadmin |
+| mg2 (Hyper-V VM) | 00-15-5D-09-BF-02 | 192.168.0.140 | vswitch |  Ubuntu 24.04 VM on slwin11ops  | vm | ghadmin |
 | Steve Room |-----------------------|------------|-------|-----------------|----|------|
 |	TIVO-8480001902B1749 | 00-11-D9-5F-47-82 | 192.168.0.11 | sw1p1 | Steves640       | sr | |
 | TIVO-748000190569948 | 00-11-D9-35-02-A8 | 192.168.0.12 | sw1p2 | Steves320       | sr | |
@@ -49,7 +38,8 @@
 
 | Name | MAC          | IP         | port  | description     | rm | link |
 |--------------|--------------|------------|-------|-----------------|----|------|
-| gusHPLaptop          | 00-23-8B-86-38-61 | 192.168.0.xx | sw2p3 | gusHPLaptop win10 | lr | [gusHPlex](http://192.168.0.23:32400) ghadmin |
+| gusHPLaptop          | 00-23-8B-86-38-61 | 192.168.0.23 | sw2p3 | gusHPLaptop win10 | lr | ghadmin |
+| gusGram              | AC-74-B1-02-FB-CF | 192.168.0.28 | wifi  | gusGram win11 i7 | lr | ghadmin |
 |	cats-Mac-mini        | 7C-C3-A1-73-CC-A3 | 192.168.0.211 | sw3p4  | macmini  chris  | bm | cat ghadmin |
 |	catSurface   	       | 28-18-78-C7-FC-23 | 192.168.0.212 | sw3p5  | suface   chris  | bm | cat ghadmin |
 |	Pixel-6a    	       | 86-50-46-38-28-96 | 192.168.0.213 | wifi  | Pixel-6a chris  | bm | |

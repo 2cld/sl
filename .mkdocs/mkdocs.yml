@@ -1,0 +1,34 @@
+site_name: SL node
+site_url: https://sl.2cld.net
+site_description: SL Home Lab Infrastructure Documentation
+docs_dir: ..
+site_dir: ../site
+
+nav:
+  - Home: README.md
+  - Documentation:
+    - Overview: docs/README.md
+    - Devices: docs/devices.md
+    - Services: docs/services.md
+    - Storage: docs/storage.md
+  - Operations:
+    - Overview: ops/README.md
+    - Install:
+      - Overview: ops/install/README.md
+      - slwin11ops: ops/install/slwin11ops-notes.md
+      - slwin11ops HV mg2: ops/install/slwin11ops-hv-mg2-notes.md
+      - slwin11: ops/install/slwin11-notes.md
+      - GitHub Actions: ops/install/github-actions-workflow.md
+    - Backup: ops/backup/README.md
+    - Remote: ops/rdp/README.md
+    
+theme:
+  name: material
+  favicon: favicon.ico
+  logo: favicon.ico
+  palette:
+    scheme: slate
+    primary: blue-grey
+    accent: cyan
+  features:
+    - search.highlight

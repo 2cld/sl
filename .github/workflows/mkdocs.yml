@@ -1,0 +1,32 @@
+# Build and deploy MkDocs Material site to GitHub Pages
+# Triggers on pushes to main branch
+# Deploys built site to gh-pages branch
+name: Deploy MkDocs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out the repository code
+      - uses: actions/checkout@v4
+
+      # Step 2: Set up Python
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # Step 3: Install mkdocs and the Material theme
+      - run: pip install mkdocs-material
+
+      # Step 4: Build and deploy to gh-pages branch
+      # Uses the config file in .mkdocs/ since docs_dir
+      # can't be the same directory as the config file
+      - run: mkdocs gh-deploy --force --config-file .mkdocs/mkdocs.yml
